@@ -36,4 +36,4 @@ jobs:
 
           echo "I am a ${{secrets.ROLE}} without sed"
           echo "With SED"
-          echo "I am a  ${{secrets.ROLE}} |sed s/./&/g "
+          echo "I am a  ${{secrets.ROLE}} |sed 's/./&/g' "
